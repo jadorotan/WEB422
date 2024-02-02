@@ -8,7 +8,7 @@
 * 
 *  Name: Jerus Allen Dorotan Student ID: 110225216 Date: 02-01-2024
 *
-*  Published URL: ___________________________________________________________
+*  Published URL: https://drab-blue-bullfrog-boot.cyclic.app
 *
 ********************************************************************************/
 
