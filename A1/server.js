@@ -38,7 +38,7 @@ app.post('/api/listings', async (req, res) => {
 
 app.get('/api/listings', async (req, res) => {
     try{
-        const listingObjs = await db.getAllListings({ page: req.query.page, perPage: req.query.perPage, name: req.query.name });
+        const listingObjs = await db.getAllListings(page, perPage, name);
         res.status(200).json(listingObjs);
     } catch(error) {
         res.status(500).json({ error: 'Internal Server Error' });
