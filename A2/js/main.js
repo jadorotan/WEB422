@@ -99,7 +99,7 @@ function loadListingsData(){
 document.addEventListener('DOMContentLoaded', () => {
 	loadListingsData();
 
-    //Click event for the "previous page" pagination button: 
+    	//Click event for the "previous page" pagination button: 
 	document.querySelector('#previous-page').addEventListener('click', (e) => {
 		if (page > 1) {
 			page--;
@@ -123,8 +123,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	//Click event for the "clearForm" button:
 	document.querySelector('#clearForm').addEventListener('click', (e) => {
-        document.querySelector('#name').value = null;
-		searchName = null;
+        document.querySelector('#name').value = '';
+		searchName = '';
 		page = 1;
 		loadListingsData();
 	});
