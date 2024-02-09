@@ -99,7 +99,7 @@ function loadListingsData(){
 document.addEventListener('DOMContentLoaded', () => {
 	loadListingsData();
 
-    //Click event for the "previous page" pagination button: 
+    	//Click event for the "previous page" pagination button: 
 	document.querySelector('#previous-page').addEventListener('click', (e) => {
 		if (page > 1) {
 			page--;
