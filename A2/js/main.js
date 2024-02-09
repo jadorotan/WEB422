@@ -117,7 +117,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	document.querySelector('#searchForm').addEventListener('submit', (e) => {
 		e.preventDefault();
 		searchName = document.querySelector('#name').value;
-        console.log('Name value:', searchName);
 		page = 1;
 		loadListingsData();
 	});
