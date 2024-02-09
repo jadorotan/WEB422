@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	//Click event for the "clearForm" button:
 	document.querySelector('#clearForm').addEventListener('click', (e) => {
-        document.querySelector('#name').value = '';
+        	document.querySelector('#name').value = '';
 		searchName = '';
 		page = 1;
 		loadListingsData();
